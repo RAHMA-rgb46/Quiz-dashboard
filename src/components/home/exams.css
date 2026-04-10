@@ -1,0 +1,159 @@
+.welcome{
+    color: #6B7280;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.search{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #6B7280;
+    color:  #1a5bc5;
+    outline: #1a5bc5;
+    margin-left: 10px;
+}
+.exam-page {
+  color: #0f172a;
+  padding: 20px;
+}
+
+/* header */
+.exam-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.timer span {
+  margin-left: 15px;
+}
+
+/* question */
+.question-box {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.options {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options label {
+  background: #e9e8ef;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* hover */
+.options label:hover {
+  background: #7476ec;
+}
+
+/* buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* previous */
+.prev {
+  background: #FFFFFF;
+  color: #6366f1;
+  border: 1.5px solid #6366f1;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* next */
+.next {
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.icons{
+ color: #6366f1;
+
+}
+/* .option {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #fff;
+} */
+
+/* hover only while hovering */
+.option:hover {
+  border-color: #6366f1;
+}
+
+/* stays ONLY on the selected option */
+.option.selected {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+.option {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #fff;
+  transition: 0.15s ease;
+}
+
+/* BEFORE selection: allow hover on options */
+.options:not(.locked) .option:hover {
+  border-color: #6366f1;
+  background: rgba(99, 102, 241, 0.08);
+}
+
+/* Selected option stays highlighted ALWAYS */
+.option.selected {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+
+/* AFTER selection: disable hover effect and pointer on non-selected options */
+.options.locked .option:not(.selected) {
+  cursor: default;
+}
+
+.options.locked .option:not(.selected):hover {
+  background: #fff;
+  border-color: #e5e7eb;
+}

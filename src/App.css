@@ -1,0 +1,81 @@
+/* html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #e9e8ef;
+}
+
+
+.sidebar-wrapper {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.page-content {
+  flex: 1;
+  min-width: 0;      
+  padding: 16px;
+} */
+/* Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Main Layout - This is the most important part */
+.main {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color:#e9e8ef;
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+  width: 250px;
+  flex-shrink: 0;
+  background-color: white;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Content Area */
+.page-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Make sure navbar takes full height */
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  /* Stack the layout vertically on small screens */
+  .main {
+    flex-direction: column;
+  }
+
+  /* Make sidebar full width at the top */
+  .sidebar-wrapper {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+}
+  
+

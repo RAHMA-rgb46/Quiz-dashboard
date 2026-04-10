@@ -1,0 +1,44 @@
+.profile{
+    width: 40%;
+    height: 15%;
+}
+
+
+.dash{
+   background-color: #FFFFFF; 
+   color: #6B7280;
+   justify-content: center;
+   border: 1px solid #E5E7EB;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.sections{
+   margin-top: 10%; 
+   justify-content: center;
+   list-style: none;
+   padding: 10px;
+   margin-right: 10px;
+   border-radius: 10px;
+   
+  
+}
+.list{
+  padding: 10px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 13px;
+
+}
+.list:hover{
+    background-color:  #6366f1;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+.sum{
+}

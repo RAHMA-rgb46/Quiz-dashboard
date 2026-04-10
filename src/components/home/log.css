@@ -1,0 +1,152 @@
+.welcome{
+    color: #6B7280;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.search{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #6B7280;
+    color:  #1a5bc5;
+    outline: #1a5bc5;
+    margin-left: 10px;
+}
+/* .logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .logout-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: #e2e8f0;
+  width: 300px;
+}
+
+.logout-card h2 {
+  margin-bottom: 10px;
+}
+
+.logout-card p {
+  margin-bottom: 20px;
+  color: #94a3b8;
+} */
+
+/* .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* cancel */
+/* .cancel {
+  background: #334155;
+  color: white;
+}
+
+/* logout */
+/* .logout {
+  background: #ef4444;
+  color: white; */
+
+/* .logs{
+  width: 90%;
+  height: 95%;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.lohgout{
+  width: 100%;
+  margin-top: 30px;
+
+}
+.user{
+  border: none;
+  width: 150%;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow:  1px 1px 4px rgba(158, 156, 156, 0.568);
+  border-radius: 10px;
+  outline-color: #6366f1;
+}
+.pass{
+  border: none;
+  width: 150%;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow:  1px 1px 4px rgba(158, 156, 156, 0.568);
+  border-radius: 10px;
+  outline-color: #6366f1;
+}
+.button{
+  color: white;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  font-weight: bold;
+  font-size: 18px;
+} */
+
+/* uses your existing .home-section and .card1 look, but centers nicely */
+
+
+
+/* logout card wrapper */
+.logout-card {
+  width: 100%;
+  max-width: 650px;
+  margin: 40px auto; /* center horizontally */
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px rgba(158, 156, 156, 0.25);
+  padding: 24px;
+}
+
+.logout-title {
+  color: #111827;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.logout-text {
+  color: #6b7280;
+  margin: 0 0 16px 0;
+  font-size: 14px;
+}
+
+/* if your global .button exists you can remove this,
+   but adding it here makes the page independent */
+.logout-btn {
+  background: #6366f1;
+  color: #ffffff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  filter: brightness(0.95);
+}
